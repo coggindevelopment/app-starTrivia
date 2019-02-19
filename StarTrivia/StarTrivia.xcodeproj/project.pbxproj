@@ -15,6 +15,8 @@
 		A3A3C6F0221ADCBA001D12BF /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3A3C6ED221ADCBA001D12BF /* Starjout.ttf */; };
 		A3A3C6F1221ADCBA001D12BF /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3A3C6EE221ADCBA001D12BF /* Starjhol.ttf */; };
 		A3A3C6F2221ADCBA001D12BF /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3A3C6EF221ADCBA001D12BF /* Starjedi.ttf */; };
+		A3CBBBC9221C1B6E00DEF2C4 /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBC8221C1B6E00DEF2C4 /* BlackBgView.swift */; };
+		A3CBBBCC221C1BF600DEF2C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBCB221C1BF600DEF2C4 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A3A3C6ED221ADCBA001D12BF /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
 		A3A3C6EE221ADCBA001D12BF /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
 		A3A3C6EF221ADCBA001D12BF /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		A3CBBBC8221C1B6E00DEF2C4 /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
+		A3CBBBCB221C1BF600DEF2C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		A3A3C6DA221ADA35001D12BF /* StarTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				A3CBBBCA221C1BD900DEF2C4 /* Utils */,
 				A3A3C6F7221ADCE8001D12BF /* Model */,
 				A3A3C6F6221ADCE3001D12BF /* View */,
 				A3A3C6F5221ADCDC001D12BF /* Controller */,
@@ -102,6 +107,7 @@
 		A3A3C6F6221ADCE3001D12BF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A3CBBBC8221C1B6E00DEF2C4 /* BlackBgView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +117,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A3CBBBCA221C1BD900DEF2C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A3CBBBCB221C1BF600DEF2C4 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +203,8 @@
 			files = (
 				A3A3C6DE221ADA35001D12BF /* SelectPersonVC.swift in Sources */,
 				A3A3C6DC221ADA35001D12BF /* AppDelegate.swift in Sources */,
+				A3CBBBC9221C1B6E00DEF2C4 /* BlackBgView.swift in Sources */,
+				A3CBBBCC221C1BF600DEF2C4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

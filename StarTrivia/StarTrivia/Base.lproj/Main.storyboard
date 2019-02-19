@@ -35,7 +35,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmq-IP-f5X">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmq-IP-f5X" customClass="BlackBgView" customModule="StarTrivia" customModuleProvider="target">
                                 <rect key="frame" x="20" y="279" width="335" height="254"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JOv-o2-a7t">
@@ -173,10 +173,22 @@
                                     <constraint firstItem="JOv-o2-a7t" firstAttribute="leading" secondItem="pmq-IP-f5X" secondAttribute="leading" constant="20" id="pGD-Qh-MQ8"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkP-o7-lre" customClass="BlackBgButton" customModule="StarTrivia" customModuleProvider="target">
+                                <rect key="frame" x="82.666666666666686" y="714" width="210" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="210" id="qKY-Eq-uBh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="StarJedi" family="Star Jedi" pointSize="20"/>
+                                <state key="normal" title="$ Random #">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="pmq-IP-f5X" secondAttribute="trailing" constant="20" id="2IS-lx-4ky"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pkP-o7-lre" secondAttribute="bottom" constant="20" id="33N-LL-mgz"/>
                             <constraint firstItem="Svg-ml-HVx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7y8-gF-rJP"/>
                             <constraint firstItem="pmq-IP-f5X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ATb-aB-9PB"/>
                             <constraint firstItem="Svg-ml-HVx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="CEW-xC-taK"/>
@@ -186,17 +198,15 @@
                             <constraint firstItem="En1-FV-HpZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ig4-u2-zxe"/>
                             <constraint firstItem="En1-FV-HpZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="k3o-JG-aV4"/>
                             <constraint firstAttribute="bottom" secondItem="En1-FV-HpZ" secondAttribute="bottom" id="ntq-AO-fYR"/>
+                            <constraint firstItem="pkP-o7-lre" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wjV-24-A43"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="UIS-gn-XBF"/>
-                    <connections>
-                        <outlet property="stackBg" destination="pmq-IP-f5X" id="z6G-b3-luG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1071.2" y="132.68365817091455"/>
+            <point key="canvasLocation" x="1071.2" y="132.26600985221674"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mUT-jI-4FP">
