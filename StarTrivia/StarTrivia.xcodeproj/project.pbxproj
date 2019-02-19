@@ -63,8 +63,6 @@
 				A3A3C6F7221ADCE8001D12BF /* Model */,
 				A3A3C6F6221ADCE3001D12BF /* View */,
 				A3A3C6F5221ADCDC001D12BF /* Controller */,
-				A3A3C6DB221ADA35001D12BF /* AppDelegate.swift */,
-				A3A3C6DD221ADA35001D12BF /* SelectPersonVC.swift */,
 				A3A3C6F4221ADCCC001D12BF /* Resources */,
 				A3A3C6DF221ADA35001D12BF /* Main.storyboard */,
 				A3A3C6E2221ADA36001D12BF /* Assets.xcassets */,
@@ -95,6 +93,8 @@
 		A3A3C6F5221ADCDC001D12BF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A3A3C6DB221ADA35001D12BF /* AppDelegate.swift */,
+				A3A3C6DD221ADA35001D12BF /* SelectPersonVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
