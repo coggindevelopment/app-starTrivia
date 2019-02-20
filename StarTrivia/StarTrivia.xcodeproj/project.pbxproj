@@ -17,6 +17,7 @@
 		A3A3C6F2221ADCBA001D12BF /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3A3C6EF221ADCBA001D12BF /* Starjedi.ttf */; };
 		A3CBBBC9221C1B6E00DEF2C4 /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBC8221C1B6E00DEF2C4 /* BlackBgView.swift */; };
 		A3CBBBCC221C1BF600DEF2C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBCB221C1BF600DEF2C4 /* Constants.swift */; };
+		A3CBBBCF221D69F900DEF2C4 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBCE221D69F900DEF2C4 /* PersonApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A3A3C6EF221ADCBA001D12BF /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
 		A3CBBBC8221C1B6E00DEF2C4 /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
 		A3CBBBCB221C1BF600DEF2C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A3CBBBCE221D69F900DEF2C4 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +66,11 @@
 		A3A3C6DA221ADA35001D12BF /* StarTrivia */ = {
 			isa = PBXGroup;
 			children = (
-				A3CBBBCA221C1BD900DEF2C4 /* Utils */,
 				A3A3C6F7221ADCE8001D12BF /* Model */,
 				A3A3C6F6221ADCE3001D12BF /* View */,
 				A3A3C6F5221ADCDC001D12BF /* Controller */,
+				A3CBBBCD221D69C900DEF2C4 /* Services */,
+				A3CBBBCA221C1BD900DEF2C4 /* Utils */,
 				A3A3C6F4221ADCCC001D12BF /* Resources */,
 				A3A3C6DF221ADA35001D12BF /* Main.storyboard */,
 				A3A3C6E2221ADA36001D12BF /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				A3CBBBCB221C1BF600DEF2C4 /* Constants.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		A3CBBBCD221D69C900DEF2C4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A3CBBBCE221D69F900DEF2C4 /* PersonApi.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 				A3A3C6DE221ADA35001D12BF /* SelectPersonVC.swift in Sources */,
 				A3A3C6DC221ADA35001D12BF /* AppDelegate.swift in Sources */,
 				A3CBBBC9221C1B6E00DEF2C4 /* BlackBgView.swift in Sources */,
+				A3CBBBCF221D69F900DEF2C4 /* PersonApi.swift in Sources */,
 				A3CBBBCC221C1BF600DEF2C4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
