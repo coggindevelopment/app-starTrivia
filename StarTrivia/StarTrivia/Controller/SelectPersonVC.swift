@@ -21,7 +21,12 @@ class SelectPersonVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        personApi.getRandomPersonUrlSession()
+        // step 1: make network request
+        personApi.getRandomPersonUrlSession { (person) in
+            if let person = person {
+                print(person.name)
+            }
+        }
     }
 
 }
