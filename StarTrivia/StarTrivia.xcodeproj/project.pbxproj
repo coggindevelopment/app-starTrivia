@@ -19,6 +19,7 @@
 		A3CBBBCC221C1BF600DEF2C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBCB221C1BF600DEF2C4 /* Constants.swift */; };
 		A3CBBBCF221D69F900DEF2C4 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBCE221D69F900DEF2C4 /* PersonApi.swift */; };
 		A3CBBBD1221D6EF800DEF2C4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBD0221D6EF800DEF2C4 /* Person.swift */; };
+		A3F09F102226B2C900695696 /* FadeEnabledBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F09F0F2226B2C900695696 /* FadeEnabledBtn.swift */; };
 		E702312DE1BD2D0481C5C603 /* Pods_StarTrivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA0B964E677CB201387A362 /* Pods_StarTrivia.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		A3CBBBCB221C1BF600DEF2C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A3CBBBCE221D69F900DEF2C4 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
 		A3CBBBD0221D6EF800DEF2C4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A3F09F0F2226B2C900695696 /* FadeEnabledBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeEnabledBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				A3CBBBC8221C1B6E00DEF2C4 /* BlackBgView.swift */,
+				A3F09F0F2226B2C900695696 /* FadeEnabledBtn.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F09F102226B2C900695696 /* FadeEnabledBtn.swift in Sources */,
 				A3CBBBD1221D6EF800DEF2C4 /* Person.swift in Sources */,
 				A3A3C6DE221ADA35001D12BF /* SelectPersonVC.swift in Sources */,
 				A3A3C6DC221ADA35001D12BF /* AppDelegate.swift in Sources */,
