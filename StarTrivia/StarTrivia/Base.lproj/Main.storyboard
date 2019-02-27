@@ -187,17 +187,81 @@
                                     <action selector="randomClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OQo-ac-HLW"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mJ1-I7-Cxj" customClass="BlackBgView" customModule="StarTrivia" customModuleProvider="target">
+                                <rect key="frame" x="20" y="547" width="335" height="75"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="Jyl-uu-P9R">
+                                        <rect key="frame" x="20" y="20" width="295" height="35"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLK-Do-0Rm">
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="9vx-Ib-tLe"/>
+                                                    <constraint firstAttribute="width" constant="35" id="sRK-rZ-Kby"/>
+                                                </constraints>
+                                                <state key="normal" image="homeworld-1"/>
+                                                <connections>
+                                                    <action selector="homeworldClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5fe-rd-YH9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YiN-6z-LrP">
+                                                <rect key="frame" x="86.666666666666671" y="0.0" width="35" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="8np-O1-MsS"/>
+                                                    <constraint firstAttribute="width" constant="35" id="Cf7-jQ-9Sh"/>
+                                                </constraints>
+                                                <state key="normal" image="vehicles"/>
+                                                <connections>
+                                                    <action selector="vehiclesBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aUe-OX-VWB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrF-5H-ow9">
+                                                <rect key="frame" x="173.33333333333334" y="0.0" width="35" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="35" id="Dac-0Y-61M"/>
+                                                    <constraint firstAttribute="height" constant="35" id="ZyY-QX-xyU"/>
+                                                </constraints>
+                                                <state key="normal" image="starships"/>
+                                                <connections>
+                                                    <action selector="starshipsBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hfp-Zz-bLq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSw-ug-7t7">
+                                                <rect key="frame" x="260" y="0.0" width="35" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="35" id="3Nb-7a-hN9"/>
+                                                    <constraint firstAttribute="height" constant="35" id="GFT-UF-9KN"/>
+                                                </constraints>
+                                                <state key="normal" image="films"/>
+                                                <connections>
+                                                    <action selector="filmsBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVv-6j-7eZ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Jyl-uu-P9R" secondAttribute="trailing" constant="20" id="adM-Yn-hPw"/>
+                                    <constraint firstAttribute="height" constant="75" id="pCI-r8-B2x"/>
+                                    <constraint firstItem="Jyl-uu-P9R" firstAttribute="centerY" secondItem="mJ1-I7-Cxj" secondAttribute="centerY" id="qkQ-4M-Aih"/>
+                                    <constraint firstItem="Jyl-uu-P9R" firstAttribute="leading" secondItem="mJ1-I7-Cxj" secondAttribute="leading" constant="20" id="yKg-Ad-Qml"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="pmq-IP-f5X" secondAttribute="trailing" constant="20" id="2IS-lx-4ky"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pkP-o7-lre" secondAttribute="bottom" constant="20" id="33N-LL-mgz"/>
+                            <constraint firstItem="mJ1-I7-Cxj" firstAttribute="width" secondItem="pmq-IP-f5X" secondAttribute="width" id="4dm-e8-URF"/>
                             <constraint firstItem="Svg-ml-HVx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7y8-gF-rJP"/>
                             <constraint firstItem="pmq-IP-f5X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ATb-aB-9PB"/>
                             <constraint firstItem="Svg-ml-HVx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="CEW-xC-taK"/>
+                            <constraint firstItem="mJ1-I7-Cxj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EU9-L6-pZB"/>
                             <constraint firstItem="pmq-IP-f5X" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FhK-pB-f8V"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Svg-ml-HVx" secondAttribute="trailing" constant="20" id="MWm-mX-RNd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="En1-FV-HpZ" secondAttribute="trailing" id="dTm-ue-LIx"/>
+                            <constraint firstItem="mJ1-I7-Cxj" firstAttribute="top" secondItem="pmq-IP-f5X" secondAttribute="bottom" constant="14" id="gPm-qO-yWT"/>
                             <constraint firstItem="En1-FV-HpZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ig4-u2-zxe"/>
                             <constraint firstItem="En1-FV-HpZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="k3o-JG-aV4"/>
                             <constraint firstAttribute="bottom" secondItem="En1-FV-HpZ" secondAttribute="bottom" id="ntq-AO-fYR"/>
@@ -208,11 +272,15 @@
                     <navigationItem key="navigationItem" id="UIS-gn-XBF"/>
                     <connections>
                         <outlet property="birthYearLbl" destination="tTp-KY-LjQ" id="dSh-2N-EHq"/>
+                        <outlet property="filmsBtn" destination="tSw-ug-7t7" id="yai-m3-F2J"/>
                         <outlet property="genderLbl" destination="a5T-dT-bT7" id="1uD-H2-rT4"/>
                         <outlet property="hairLbl" destination="maa-UH-0LM" id="S1p-LV-TH0"/>
                         <outlet property="heightLbl" destination="Zvq-fM-Ty2" id="nEE-B7-M5z"/>
+                        <outlet property="homeworldBtn" destination="pLK-Do-0Rm" id="6QL-bs-KMp"/>
                         <outlet property="massLbl" destination="YWE-qT-6ym" id="jVS-0a-tck"/>
                         <outlet property="nameLbl" destination="Kg2-M0-r6R" id="4BN-zh-bc8"/>
+                        <outlet property="starshipsBtn" destination="GrF-5H-ow9" id="prX-Q7-kNA"/>
+                        <outlet property="vehiclesBtn" destination="YiN-6z-LrP" id="zVr-fh-j3s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -239,6 +307,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="films" width="50" height="50"/>
+        <image name="homeworld-1" width="50" height="50"/>
         <image name="space1" width="699" height="1120"/>
+        <image name="starships" width="50" height="50"/>
+        <image name="vehicles" width="50" height="50"/>
     </resources>
 </document>
