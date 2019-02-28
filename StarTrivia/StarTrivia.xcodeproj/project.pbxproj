@@ -23,6 +23,8 @@
 		A3CBBBCC221C1BF600DEF2C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBCB221C1BF600DEF2C4 /* Constants.swift */; };
 		A3CBBBCF221D69F900DEF2C4 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBCE221D69F900DEF2C4 /* PersonApi.swift */; };
 		A3CBBBD1221D6EF800DEF2C4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBBBD0221D6EF800DEF2C4 /* Person.swift */; };
+		A3EFFCB52227FA730024500B /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFFCB42227FA730024500B /* Homeworld.swift */; };
+		A3EFFCB72227FAC90024500B /* HomeworldApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFFCB62227FAC90024500B /* HomeworldApi.swift */; };
 		A3F09F102226B2C900695696 /* FadeEnabledBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F09F0F2226B2C900695696 /* FadeEnabledBtn.swift */; };
 		E702312DE1BD2D0481C5C603 /* Pods_StarTrivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA0B964E677CB201387A362 /* Pods_StarTrivia.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +51,8 @@
 		A3CBBBCB221C1BF600DEF2C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A3CBBBCE221D69F900DEF2C4 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
 		A3CBBBD0221D6EF800DEF2C4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A3EFFCB42227FA730024500B /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
+		A3EFFCB62227FAC90024500B /* HomeworldApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldApi.swift; sourceTree = "<group>"; };
 		A3F09F0F2226B2C900695696 /* FadeEnabledBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeEnabledBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				A3CBBBD0221D6EF800DEF2C4 /* Person.swift */,
+				A3EFFCB42227FA730024500B /* Homeworld.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				A3CBBBCE221D69F900DEF2C4 /* PersonApi.swift */,
+				A3EFFCB62227FAC90024500B /* HomeworldApi.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -300,7 +306,9 @@
 				A3F09F102226B2C900695696 /* FadeEnabledBtn.swift in Sources */,
 				A3CBBBD1221D6EF800DEF2C4 /* Person.swift in Sources */,
 				A37D20A32226B6E200EF3481 /* StarshipsVC.swift in Sources */,
+				A3EFFCB52227FA730024500B /* Homeworld.swift in Sources */,
 				A37D20A12226B6CB00EF3481 /* VehiclesVC.swift in Sources */,
+				A3EFFCB72227FAC90024500B /* HomeworldApi.swift in Sources */,
 				A3A3C6DE221ADA35001D12BF /* SelectPersonVC.swift in Sources */,
 				A3A3C6DC221ADA35001D12BF /* AppDelegate.swift in Sources */,
 				A3CBBBC9221C1B6E00DEF2C4 /* BlackBgView.swift in Sources */,
