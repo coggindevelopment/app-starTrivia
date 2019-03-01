@@ -664,7 +664,6 @@
                         <viewLayoutGuide key="safeArea" id="ffT-7P-QPN"/>
                     </view>
                     <connections>
-                        <outlet property="SpeedLbl" destination="NxV-uo-425" id="5b8-l2-xhy"/>
                         <outlet property="costLbl" destination="24u-SX-wPc" id="o7b-03-MED"/>
                         <outlet property="crewLbl" destination="3jK-9i-Gqm" id="Umj-w4-kFP"/>
                         <outlet property="lengthLbl" destination="gPG-E3-7Jw" id="TU1-RW-vBv"/>
@@ -674,6 +673,7 @@
                         <outlet property="nextBtn" destination="jgY-3n-faN" id="cy4-RF-5mV"/>
                         <outlet property="passengersLbl" destination="Jqc-4G-Tz2" id="XK2-kn-Seu"/>
                         <outlet property="previousBtn" destination="Zai-9d-qw6" id="HaI-Sb-p5G"/>
+                        <outlet property="speedLbl" destination="NxV-uo-425" id="5b8-l2-xhy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pSj-vZ-ONE" userLabel="First Responder" sceneMemberID="firstResponder"/>
