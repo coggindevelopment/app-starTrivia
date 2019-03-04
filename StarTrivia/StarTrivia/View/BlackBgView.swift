@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BlackBgView: UIView {
+class BlackBgView : UIView {
     
     override func awakeFromNib() {
         layer.backgroundColor = BLACK_BG

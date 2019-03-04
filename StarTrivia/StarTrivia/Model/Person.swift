@@ -20,7 +20,7 @@ struct Person : Codable {
     let vehicleUrls: [String]
     let starshipUrls: [String]
     
-    enum CodingKeys: String, CodingKey {
+    enum CodingKeys : String, CodingKey {
         case name
         case height
         case mass

@@ -24,7 +24,7 @@ struct Vehicle : Codable {
         case manufacturer
         case cost = "cost_in_credits"
         case length
-        case speed = "max_atmosphere_speed"
+        case speed = "max_atmosphering_speed"
         case crew
         case passengers
     }

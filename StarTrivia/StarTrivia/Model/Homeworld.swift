@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Homeworld: Codable {
+struct Homeworld : Codable {
     let name: String
     let climate: String
     let terrain: String
