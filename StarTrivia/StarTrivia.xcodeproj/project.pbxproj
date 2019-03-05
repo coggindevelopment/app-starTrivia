@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3078C3B222D926B0061B8D8 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3078C3A222D926B0061B8D8 /* Starship.swift */; };
+		A3078C3D222D95240061B8D8 /* StarshipApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3078C3C222D95240061B8D8 /* StarshipApi.swift */; };
 		A37D209F2226B6BC00EF3481 /* HomeworldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D209E2226B6BC00EF3481 /* HomeworldVC.swift */; };
 		A37D20A12226B6CB00EF3481 /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D20A02226B6CB00EF3481 /* VehiclesVC.swift */; };
 		A37D20A32226B6E200EF3481 /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D20A22226B6E200EF3481 /* StarshipsVC.swift */; };
@@ -35,6 +37,8 @@
 		4763AABD273127589C6B1496 /* Pods-StarTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia.debug.xcconfig"; sourceTree = "<group>"; };
 		5BA0B964E677CB201387A362 /* Pods_StarTrivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarTrivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D34AE4714FEF479EF81F88C /* Pods-StarTrivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia.release.xcconfig"; sourceTree = "<group>"; };
+		A3078C3A222D926B0061B8D8 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		A3078C3C222D95240061B8D8 /* StarshipApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipApi.swift; sourceTree = "<group>"; };
 		A37D209E2226B6BC00EF3481 /* HomeworldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldVC.swift; sourceTree = "<group>"; };
 		A37D20A02226B6CB00EF3481 /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
 		A37D20A22226B6E200EF3481 /* StarshipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
@@ -170,6 +174,7 @@
 				A3CBBBD0221D6EF800DEF2C4 /* Person.swift */,
 				A3EFFCB42227FA730024500B /* Homeworld.swift */,
 				A3CF409422294E80009815E5 /* Vehicle.swift */,
+				A3078C3A222D926B0061B8D8 /* Starship.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				A3CBBBCE221D69F900DEF2C4 /* PersonApi.swift */,
 				A3EFFCB62227FAC90024500B /* HomeworldApi.swift */,
 				A3CF409622295111009815E5 /* VehicleApi.swift */,
+				A3078C3C222D95240061B8D8 /* StarshipApi.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -316,6 +322,8 @@
 				A3CF409522294E80009815E5 /* Vehicle.swift in Sources */,
 				A37D20A12226B6CB00EF3481 /* VehiclesVC.swift in Sources */,
 				A3CF409722295111009815E5 /* VehicleApi.swift in Sources */,
+				A3078C3D222D95240061B8D8 /* StarshipApi.swift in Sources */,
+				A3078C3B222D926B0061B8D8 /* Starship.swift in Sources */,
 				A3EFFCB72227FAC90024500B /* HomeworldApi.swift in Sources */,
 				A3A3C6DE221ADA35001D12BF /* SelectPersonVC.swift in Sources */,
 				A3A3C6DC221ADA35001D12BF /* AppDelegate.swift in Sources */,

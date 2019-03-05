@@ -28,6 +28,7 @@ class VehiclesVC: UIViewController, PersonProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         vehicles = person.vehicleUrls
         nextBtn.isEnabled = vehicles.count > 1
         previousBtn.isEnabled = false
@@ -67,8 +68,8 @@ class VehiclesVC: UIViewController, PersonProtocol {
     
     func setButtonState() {
         
-        nextBtn.isEnabled = currectVehicle == vehicles.count - 1 ? false : true
         previousBtn.isEnabled = currectVehicle == 0 ? false : true
+        nextBtn.isEnabled = currectVehicle == vehicles.count - 1 ? false : true
         
 //        if currectVehicle == 0 {
 //            previousBtn.isEnabled = false
