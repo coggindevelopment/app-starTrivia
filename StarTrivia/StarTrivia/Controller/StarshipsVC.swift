@@ -22,6 +22,7 @@ class StarshipsVC: UIViewController, PersonProtocol {
     @IBOutlet weak var passengersLbl: UILabel!
     @IBOutlet weak var previousBtn: UIButton!
     @IBOutlet weak var nextBtn: UIButton!
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
     
     var person: Person!
     let api = StarshipApi()
@@ -40,7 +41,9 @@ class StarshipsVC: UIViewController, PersonProtocol {
     }
     
     func getStarship(url: String) {
+        spinner.startAnimating()
         api.getStarship(url: url) { (starship) in
+            self.spinner.stopAnimating()
             if let starship = starship {
                 self.setupView(starship: starship)
             }

@@ -18,6 +18,7 @@ class FilmsVC: UIViewController, PersonProtocol {
     @IBOutlet weak var previousBtn: UIButton!
     @IBOutlet weak var nextBtn: UIButton!
     @IBOutlet weak var crawlLbl: UITextView!
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
     
     var person: Person!
     let api = FilmsApi()
@@ -34,7 +35,9 @@ class FilmsVC: UIViewController, PersonProtocol {
     }
     
     func getFilm(url: String) {
+        spinner.startAnimating()
         api.getFilm(url: url) { (film) in
+            self.spinner.stopAnimating()
             if let film = film {
                 self.setupView(film: film)
             }
